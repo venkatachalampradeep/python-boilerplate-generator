@@ -14,6 +14,7 @@ Python Boilerplate Generator is a command-line utility that simplifies the proce
 ## Directory Structure
 A generated project template will follow this directory structure:
 
+```graphql
 my_project/
 ├── my_project/
 │   ├── __init__.py
@@ -28,3 +29,4 @@ my_project/
 ├── .gitignore
 ├── requirements.txt
 └── venv/
+```
