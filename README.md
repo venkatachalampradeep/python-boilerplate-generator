@@ -14,7 +14,7 @@ Python Boilerplate Generator is a command-line utility that simplifies the proce
 
 ## Usage
 ```bash
-./create_project_structure.sh kml2gpx 
+./create_project_structure.sh PROJECT_NAME 
 ```
 
 ## Directory Structure
