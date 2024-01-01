@@ -16,12 +16,16 @@ mkdir -p "$PROJECT_ROOT"
 # Create the main package directory
 mkdir -p "$PROJECT_ROOT/$PROJECT_NAME"
 touch "$PROJECT_ROOT/$PROJECT_NAME/__init__.py"
+touch "$PROJECT_ROOT/$PROJECT_NAME/main.py"
 
 # Create the tests directory
 mkdir -p "$PROJECT_ROOT/tests"
+touch "$PROJECT_ROOT/tests/__init__.py"
+touch "$PROJECT_ROOT/tests/test_main.py"
 
 # Create the docs directory
 mkdir -p "$PROJECT_ROOT/docs"
+touch "$PROJECT_ROOT/docs/README.md"
 
 # Create the LICENSE.txt file (e.g., MIT License)
 touch "$PROJECT_ROOT/LICENSE.txt"
