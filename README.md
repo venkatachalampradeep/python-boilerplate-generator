@@ -8,8 +8,14 @@ Python Boilerplate Generator is a command-line utility that simplifies the proce
 
 - Generates Python project templates with a predefined directory structure.
 - Includes common project files like `README.md`, `.gitignore`, `requirements.txt`, and more.
-- Configurable templates to suit your project needs.
-- Supports Python 3.6 or higher.
+- Includes a `setup.py` for easy distribution.
+- Generates a `.gitignore` file for Python projects.
+- Optional creation of a virtual environment directory (`venv`).
+
+## Usage
+```bash
+./create_project_structure.sh kml2gpx 
+```
 
 ## Directory Structure
 A generated project template will follow this directory structure:
